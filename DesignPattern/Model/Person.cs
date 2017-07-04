@@ -1,9 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using DesignPattern.Observer.Interface;
+using ObserverPattern.Interface;
 
-namespace DesignPattern.Observer.Model
+namespace ObserverPattern.Model
 {
     public abstract class Person : IObserver
     {

@@ -1,13 +1,14 @@
 ﻿using System;
+using DesignPattern;
 
-namespace DesignPattern
+namespace ObserverPattern
 {
     class Program
     {
         static void Main(string[] args)
         {
-           new ObserverDelegator().DelegateMainMethod();
-             
+            ObserverDelegator.DelegateMainMethod();
+
             Console.Read();
         }
     }

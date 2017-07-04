@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using DesignPattern.Observer.Interface;
+using ObserverPattern.Interface;
 
-namespace DesignPattern.Observer
+namespace ObserverPattern
 {
     public class Subject : ISubject
     {

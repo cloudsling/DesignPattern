@@ -1,14 +1,11 @@
 ﻿using System.Threading;
-using DesignPattern.Observer;
-using DesignPattern.Observer.Model;
-using DesignPattern.Interface;
+using ObserverPattern.Model;
 
-namespace DesignPattern
+namespace ObserverPattern
 {
-    public class ObserverDelegator : DelegatorBase
-    {
-
-        public override void DelegateMainMethod()
+    public class ObserverDelegator 
+    { 
+        public static void DelegateMainMethod()
         {
             Subject subject = new Subject();
 
