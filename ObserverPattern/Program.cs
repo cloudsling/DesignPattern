@@ -1,5 +1,4 @@
 ﻿using System;
-using DesignPattern;
 
 namespace ObserverPattern
 {
