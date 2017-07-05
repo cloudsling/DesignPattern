@@ -8,7 +8,7 @@ namespace ObserverPattern
         {
             ObserverDelegator.DelegateMainMethod();
 
-            Console.Read();
+            Console.ReadLine();
         }
     }
 }
