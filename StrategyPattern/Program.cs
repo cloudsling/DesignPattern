@@ -14,7 +14,7 @@ namespace StrategyPattern
             king.Fight();
             queen.Fight();
 
-            Console.Read();
+            Console.ReadLine();
         }
     }
 }
